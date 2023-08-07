@@ -44,7 +44,7 @@
   </style>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100 section-bg">
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center">
       <h1 class="logo me-auto">
@@ -52,15 +52,33 @@
             class="img-fluid" /></a>
       </h1>
 
-      
-
-      <!-- .navbar -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li>
+            <a class="nav-link" href="userberanda.html">Dasbor</a>
+          </li>
+          <li>
+            <a class="nav-link" href="usertabelruang.html">Rekap Ruang</a>
+          </li>
+          <li>
+          <li><a class="nav-link" href="userpembayaran.html">Pembayaran</a>
+          </li>
+          <li><a class="nav-link" href="userrekappembayaran.html">Rekap Pembayaran</a>
+          </li>
+          <li><a class="nav-link" href="usersewa.html">Penyewaan</a>
+          </li>
+          <li>
+            <a class="nav-link active" href="userketentuan.html">Ketentuan</a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>  
     </div>
   </header>
 
 
   <main id="main">
-    <section id="featured-services" class="featured-services section-bg">
+    <section id="featured-services" class="">
         <div class="container">
             <div class="section-title">
                 <h2>Ketentuan Sewa Menyewa </h2>
@@ -76,13 +94,13 @@
               <p>&#8211; Surat keterangan belum memiliki Rumah</p>
               <p>Untuk memudahkan informasi pelayanan bagi penghuni/calon penghuni dapat menghubungi wa center 0895372233322</p>
             </div>
-            <embed src="file.pdf" width=100% height=500></embed>         
+            <embed src="../assets/pdf/Panduan Penggunaan LMS SIBELA Untuk Siswa-1.pdf" width=100% height=500></embed>         
         </div> 
     </section>
   </main>
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <footer class="mt-auto" id="footer">
     <div class="container">
       <h3>
         <a href="#" class="logo me-auto"><img src="../assets/img/logosipenafinal.png" alt="" class="img-fluid"

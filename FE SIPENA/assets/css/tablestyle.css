@@ -111,5 +111,5 @@ td {
 }
 
 .header {
-  min-width:130px;
+  width: max-content;
 }

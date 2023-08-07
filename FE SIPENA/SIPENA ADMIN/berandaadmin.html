@@ -34,7 +34,7 @@
     <link href="../assets/css/style.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="d-flex flex-column min-vh-100 section-bg">
     <!-- ======= Top Bar ======= -->
     <section
       id="topbar"
@@ -59,25 +59,21 @@
           <ul>
             <li>
               <a class="nav-link active" href="">Dasbor</a>
+            </li> 
+            <li>
+              <a class="nav-link" href="tabelruangkosong.html">Rekap Ruang</a>
             </li>
-            <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li>
-                  <a class="nav-link" href="tabelruangkosong.html">Rekap Ruang</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="tabelrekapbayar.html">Rekap Pembayaran</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="tabelpengguna.html">Tabel Pengguna</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="tabelpengajuan.html">Pengajuan Sewa</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="ketentuan.html">Ketentuan</a>
-                </li>
-              </ul>
+            <li>
+            <li><a class="nav-link" href="tabelrekapbayar.html">Rekap Pembayaran</a>
+            </li>
+            <li>
+              <a class="nav-link" href="tabelpengguna.html">Tabel Pengguna</a>
+            </li>
+            <li>
+              <a class="nav-link" href="tabelpengajuan.html">Pengajuan Sewa</a>
+            </li>
+            <li>
+              <a class="nav-link" href="ketentuan.html">Ketentuan</a>
             </li>
             <li>
               <a class="getstarted logout" href="../SIPENA BERANDA/index.html">KELUAR</a>
@@ -115,9 +111,9 @@
                               <h4 class="text-right">Profil Admin</h4>
                           </div>
                           <div class="row mt-2">
-                              <div class="col-md-12"><label class="labels">Nama</label><input type="text" class="form-control" placeholder="Admin Si-Pena" value="" disabled></div>
-                              <div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" value="" placeholder="adminsipena@gmail.com" disabled></div>
-                              <div class="col-md-12"><label class="labels">Password</label><input type="text" class="form-control" value="" placeholder="********" disabled></div>
+                              <div class="col-md-12"><label class="labels">Nama</label><input type="text" class="form-control" placeholder="Admin Si-Pena" value="" readonly></div>
+                              <div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" value="" placeholder="adminsipena@gmail.com" readonly></div>
+                              <div class="col-md-12"><label class="labels">Password</label><input type="text" class="form-control" value="" placeholder="********" readonly></div>
                           </div>
                       </div>
                   </div>
@@ -130,7 +126,7 @@
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer">
+    <footer class="mt-auto" id="footer">
       <div class="container">
         <h3>
           <a href="index.html" class="logo me-auto"
