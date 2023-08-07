@@ -66,10 +66,10 @@
           <li><a class="nav-link" href="tabelrekapbayar.html">Rekap Pembayaran</a>
           </li>
           <li>
-            <a class="nav-link active" href="tabelpengguna.html">Tabel Pengguna</a>
+            <a class="nav-link" href="tabelpengguna.html">Tabel Pengguna</a>
           </li>
           <li>
-            <a class="nav-link" href="tabelpengajuan.html">Pengajuan Sewa</a>
+            <a class="nav-link active" href="tabelpengajuan.html">Pengajuan Sewa</a>
           </li>
           <li>
             <a class="nav-link" href="ketentuan.html">Ketentuan</a>
@@ -87,59 +87,12 @@
     <section id="featured-services" class="featured-services section-bg">
       <div class="container">
         <div class="pb-0">
-        <h3 style="font-weight:700;"> TABEL PENGGUNA </h3>
-        <p> Data Tabel Pengguna Rusunawa Kota Malang</p>
-        <button type="button" class="btn" style="color:white; background-color:#5CB874" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Tambah Data
-          </button>
-        </div>
+        <h3 style="font-weight:700;"> TABEL PENGAJUAN </h3>
+        <p> Data Tabel Pengajuan Sewa Rusunawa Kota Malang</p>
+        
       </div> <br>
   
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <form>
-                <div class="modal-body">
-                    <input type="hidden" name="id" id="id">
-                    <div class="form-group ; mb-3">
-                        <label for="Nama">Nama</label>
-                        <input type="text" class="form-control" id="Nama" name="Nama"
-                            placeholder="Nama" required />
-                    </div>
-                    <div class="form-group, mb-3">
-                        <label for="TTL">Tempat, Tanggal Lahir</label>
-                        <input type="text" class="form-control" id="TTL" name="TTL"
-                            placeholder="TTL" required />
-                    </div>
-                    <div class="form-group; mb-3">
-                        <label for="Alamat">Alamat</label>
-                        <input type="text" class="form-control" id="Alamat" name="Alamat"
-                            placeholder="Alamat" required />
-                    </div>
-                    <div class="form-group; mb-3">
-                        <label for="Pekerjaan">Pekerjaan</label>
-                        <input type="text" class="form-control" id="Pekerjaan" name="Pekerjaan"
-                            placeholder="Pekerjaan" required />
-                    </div>
-                    <div class="form-group; mb-3">
-                        <label for="NoHP">No HP</label>
-                        <input type="number" class="form-control" id="NoHP" name="NoHP"
-                            placeholder="NO TELP" required />
-                    </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="submit" class="btn btn-outline-secondary" data-bs-dismiss="modal">Tutup</button>
-                  <button type="button" class="btn" style="color:white; background-color:#5CB874">Tambah</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+       
 
         <div class="container">
           <div class="row py-10"> 
@@ -170,16 +123,8 @@
                                 <td> 089227833746</td>
                                 <td><button class="btn btn-sm" style="color:white; background-color:#5CB874">Lihat Berkas</button></td>
                                 <td>
-                                  <button class="button-arounder"> 
-                                    <span class="material-symbols-outlined"> info </span>
-                                  </button>
-                                  <button class="button-arounder"> 
-                                    <span class="material-symbols-outlined"> edit </span>
-                                  </button>
-                                  <button class="button-arounder" onclick="BtnDel(this)">
-                                    <span class="material-symbols-outlined"> delete </span>
-                                  </button>
-                                </td>  
+                                    <button class="btn btn-sm" data-bs-toggle="modal" data-bs-target="#modalpenyewaan" style="color:white; background-color:#5CB874">Aksi</button></td>
+                                </td>
                               </tr>
                               <tr>
                                 <td> 2. </td>
@@ -189,17 +134,7 @@
                                 <td> Tukang Parkir </td>
                                 <td> 0898479287 </td>
                                 <td><button class="btn btn-sm" style="color:white; background-color:#5CB874">Lihat Berkas</button></td>
-                                <td>
-                                  <button class="button-arounder"> 
-                                    <span class="material-symbols-outlined"> info </span>
-                                  </button>
-                                  <button class="button-arounder"> 
-                                    <span class="material-symbols-outlined"> edit </span>
-                                  </button>
-                                  <button class="button-arounder" onclick="BtnDel(this)">
-                                    <span class="material-symbols-outlined"> delete </span>
-                                  </button>
-                                </td>  
+                                <td><button class="btn btn-sm" style="color:white; background-color:#5CB874">Aksi</button></td>
                               </tr>
                               <tr>
                                 <td> 3. </td>
@@ -209,17 +144,7 @@
                                 <td> Tukang Parkir </td>
                                 <td> 0898479287 </td>
                                 <td> Tidak ada </td>
-                                <td>
-                                  <button class="button-arounder"> 
-                                    <span class="material-symbols-outlined"> info </span>
-                                  </button>
-                                  <button class="button-arounder"> 
-                                    <span class="material-symbols-outlined"> edit </span>
-                                  </button>
-                                  <button class="button-arounder" onclick="BtnDel(this)">
-                                    <span class="material-symbols-outlined"> delete </span>
-                                  </button>
-                                </td>  
+                                <td><button class="btn btn-sm" style="color:white; background-color:#5CB874">Aksi</button></td>
                               </tr>
                           </tbody>
                       </table>
@@ -232,6 +157,56 @@
     </section>
 
   </main><!-- End #main -->
+
+
+  <div class="modal fade" id="modalpenyewaan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form>
+            <div class="modal-body">
+                <div class="row justify-content-md-center">
+                <div class="col-md-12">
+                  <div class="modal-body">
+                    <h4 class="modal-title" id="exampleModalLabel">Data Pemilihan Kota</h4>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="pkldimana_pemberkasan" name="pkldimana_pemberkasan" placeholder="Kota 1">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="pkldimana_pemberkasan" name="pkldimana_pemberkasan" placeholder="Kota 2">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="pkldimana_pemberkasan" name="pkldimana_pemberkasan" placeholder="Kota 3">
+                    </div>
+                  </div>
+                  <div class="modal-body">
+                    <h4 class="modal-title" id="exampleModalLabel">Penempatan Siswa</h4>
+                    <form>
+                      <div class="form-group">
+                        <label for="pkldimana">Penempatan Kota</label>
+                        <input type="text" class="form-control" id="pkldimana" name="pkldimana_pemberkasan" placeholder="Kota">
+                      </div>
+                      <div class="form-group">
+                        <label for="indus">Penempatan Industri</label>
+                        <input type="text" class="form-control" id="indus" name="pkldimana_pemberkasan" placeholder="Industri">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-outline-secondary" data-bs-dismiss="modal">Tutup</button>
+            <button type="button" class="btn" style="color:white; background-color:#5CB874">Tambah</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
